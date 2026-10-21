@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Imperial+Script&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Oswald", sans-serif;
+}
+
+
+.carousel-item {
+    height: 60vh;
+}
+
+.carousel-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.hero-caption {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container1 {
+    width: 100%;
+    margin: 0;
+}
+
+.img-resized {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-resized:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.5s;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.068);
+}
+
+.img-pagina {
+    width: 100%;
+    max-height: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.card {
+    background-color: rgba(241, 241, 241, 0.973);
+}
+
+.card:hover {
+    background-color: rgba(223, 222, 222, 0.973);
+}
+
+.price {
+    display: inline-block;
+}
+
+.card:hover .price {
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    filter: brightness(90%);
+}
+
+.button-ordina {
+    width: 300px;
+}
